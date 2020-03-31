@@ -78,7 +78,7 @@
                 <nav class="nav">
                     <h5 class="option selected">Work</h5>
                     <h5 class="option"><a href="about">About</a></h5>
-                    <h5 class="option"><a href="travel">Travel</a></h5>
+                    <h5 class="option"><a href="travel">Music</a></h5>
                     <h5 class="option"><a href="resume">Resume</a></h5>
                 </nav>
             </div>
