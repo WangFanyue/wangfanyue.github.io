@@ -1,0 +1,146 @@
+<!-- About -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- HEAD -->
+<head id="top">
+    <meta charset="UTF-8">
+    <title>About · Zain Khoja</title>
+    <meta name="Description" content="Zain Khoja is a designer and student at Cornell. He's currently a Design Systems Intern at GitHub.">
+
+    <!-- Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/hover-min.css">
+
+    <!-- Javascript -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script>
+        /* Back button appears on scroll */
+        $(window).scroll(function(){
+          if ($(this).scrollTop() > 20) {
+              $('.back').removeClass('no-display');
+          } else {
+              $('.back').addClass('no-display');
+          }
+        });
+        
+        /* Forward button appears on scroll */
+        $(window).scroll(function(){
+          if ($(this).scrollTop() > 20) {
+              $('.forward').removeClass('no-display');
+          } else {
+              $('.forward').addClass('no-display');
+          }
+        });
+        
+        /* Scroll button appears on scroll */
+        $(window).scroll(function(){
+          if ($(this).scrollTop() > 20) {
+              $('.scroll-to-top').removeClass('no-display');
+          } else {
+              $('.scroll-to-top').addClass('no-display');
+          }
+        });
+
+        /* Smooth Scrolling */
+        $(document).ready(function(){
+          $("a").on('click', function(event) {
+            if (this.hash !== "") {
+                event.preventDefault();
+                var hash = this.hash;
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 500, function(){
+                    window.location.hash = hash;
+                });
+            }
+          });
+        });
+    </script>
+
+    <!-- Webpage Icons -->
+    <link rel="icon" type="image/x-icon" href="zk-favicon.ico"/>
+    <link rel="icon" type="image/png" href="zk-logo.png"/>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-89012104-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-89012104-2');
+    </script>
+
+    <!-- Twitter Preview -->
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:site" content="@zainkho"/>
+    <meta name="twitter:creator" content="@zainkho"/>
+    <meta name="twitter:title" content="Zain Khoja" />
+    <meta name="twitter:description" content="Zain Khoja is a designer and student at Cornell."/>
+    <meta name="twitter:image:src" content="https://zainkho.com/zk-screenshot.png"/>
+</head>
+
+<body class="grid">
+    <!-- Header -->
+    <header class="c12">
+        <!-- Nav -->
+        <div class="hero">
+            <div class="header">
+                <a href="/"><img alt="Zain Khoja logo" src="zk-logo.svg" class="zk-logo"></a>
+                <h3 class="medium content-web">Zain Khoja</h3>
+                <nav class="nav">
+                    <h5 class="option"><a href="/">Work</a></h5>
+                    <h5 class="option selected">About</h5>
+                    <h5 class="option"><a href="travel">Travel</a></h5>
+                    <h5 class="option"><a href="resume">Resume</a></h5>
+                </nav>
+            </div>
+
+            <!-- Title -->
+            <div class="title">
+                <h1 class="content-web emoji">👋🏽</h1>
+                <div>
+                    <h1 class="content-mobile">👋🏽</h1>
+                    <h1>Hey there,</h1>
+                    <h1 class="medium">It's nice to meet you.</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <main class="c12 summary main">
+        <div>
+            <p>
+                I’m currently a student at <a href="https://www.cornell.edu/" target="_blank" rel="noopener" class="link cornell-link">Cornell</a> studying Information Science. Most recently, I was a Systems Designer Intern at <a href="https://primer.style/team" target="_blank" rel="noopener" style="color: #0366D6" class="link">GitHub</a>. This upcoming summer, I’ll be a Product Design Intern at <a href="https://instagram.com" target="_blank" rel="noopener" class="link ig-link">Instagram</a>.
+            </p><br>
+            <p>
+                I learned my craft by working on <a href="http://unicreative.co/" target="_blank" rel="noopener" class="link">side projects</a> and guidance from some <a href="https://twitter.com/sahkho" target="_blank" rel="noopener" class="link">great mentors</a>. I also work with <a href="https://cornellappdev.com" target="_blank" rel="noopener" class="link">Cornell AppDev</a> to improve the quality of life for students on campus.
+            </p><br>
+            <p>
+                A proud Dallas native and sweet tea aficionado, I'm inspired by people from different walks of life and my own experiences exploring the unknown.
+            </p>
+        </div>
+        <img alt="picture of Zain Khoja" src="zk-avi.jpg" class="avi">
+    </main>
+    
+    <footer class="c12 grid">
+        <div class="c6-left">
+            <p>If you’re looking to work with me or want to grab some coffee, feel free to email me at <a href="mailto:znk4@cornell.edu?subject=Hey!" target="_blank" rel="noopener">znk4@cornell.edu</a>.</p>
+        </div>
+        <div class="social">
+            <a href="https://twitter.com/zainkho" target="_blank" rel="noopener"><img alt="Twitter icon" src="icons/twitter.svg" class="icons"></a>
+            <a href="https://medium.com/@zainkho" target="_blank" rel="noopener"><img alt="Medium icon" src="icons/medium.svg" class="icons"></a>
+            <a href="https://linkedin.com/in/zainkho" target="_blank" rel="noopener"><img alt="LinkedIn icon" src="icons/linkedin.svg" class="icons"></a>
+        </div>  
+
+        <!-- Scroll To Top -->
+        <a href="#top" aria-label="scroll to top" class="content-web no-display scroll-to-top"></a>
+    </footer>
+</body>
+
+</html>
