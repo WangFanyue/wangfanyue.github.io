@@ -1,6 +1,4 @@
 <!-- Index -->
-
-<!DOCTYPE html>
 <html lang="en">
 
 <!-- Head -->
