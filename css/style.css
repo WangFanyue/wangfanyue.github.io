@@ -266,6 +266,11 @@ video {
     text-transform: uppercase;
     color: var(--gray-03);
 }
+.tinycluster{
+    margin-bottom: 0.75em;
+    text-transform: uppercase;
+    color: var(--gray-02);
+}
 .divider {
     border-top: 1px solid var(--gray-01);
     margin-bottom: 3em;
@@ -691,6 +696,9 @@ footer p a:hover {
 }
 .drf-link {
     color: #0702D1;
+}
+.drf-link2 {
+    color: rgb(21, 126, 29);
 }
 
 /* GITHUB */
