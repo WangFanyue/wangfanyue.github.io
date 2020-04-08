@@ -149,6 +149,10 @@ a {
 .white {
     color: var(--white);
 }
+.grey {
+    color: var(--gray-04);
+}
+
 .link:hover {
     opacity: 0.6;
     transition: 0.28s;
@@ -317,7 +321,7 @@ video {
     text-align: left;
 }
 .exp-github {
-    background: #386592;
+    background: #d8ecff;
 
 }
 .exp-starbucks {
@@ -338,8 +342,8 @@ video {
 
 .github-logo {
     position: relative;
-    margin-bottom: 1.5em;
-    height: 17.5%;
+    margin-bottom: 4.5em;
+    height: 35.5%;
     
     animation: 1.0s ease-in-out infinite infinite-bob;
 }
