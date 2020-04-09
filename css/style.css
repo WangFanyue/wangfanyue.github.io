@@ -331,7 +331,10 @@ video {
     background: #FFDB6D;
 }
 .exp-respond {
-    background: linear-gradient(#FF7E7E, #FFB77E, #FFDE88);
+    background: linear-gradient(rgb(246, 255, 164), rgb(255, 199, 154), rgb(250, 154, 154));
+}
+.exp-respond0 {
+    background: linear-gradient(rgb(119, 223, 255), rgb(154, 169, 250), rgb(235, 185, 250));
 }
 .exp-tint {
     background: linear-gradient(135deg, #B2B2B2 0%, #666666 20%, #222222 20%);
